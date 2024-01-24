@@ -99,7 +99,7 @@ The service can be found at "piral.cloud".
 ## Publishing a Pilet to the Feed Service
 or publishing the pilet navigate to the folder of the pilet and invoke the following command:<br>
 
-`npx pilet publish --fresh --url https://feed.piral.cloud/api/v1/pilet/my-tutorial-feed --api-key <your-api-key>`
+`npx pilet publish --fresh --url https://feed.piral.cloud/api/v1/pilet/tudo-feed --api-key <your-api-key>`
 
 
 ## Check the Pilet Upload in the Feed Service
@@ -110,7 +110,7 @@ The feed service allows you to view and manage available pilets. To view all pub
 
  we just need to configure our Piral instance to pull the pilets from the created feed. We need to modify the index.tsx file in the ./src folder of the Piral instance. The path to the newly created feed needs to be specified, in our case:<br> 
  
-`const feedUrl = 'https://feed.piral.cloud/api/v1/pilet/my-tutorial-feed';`
+`const feedUrl = 'https://feed.piral.cloud/api/v1/pilet/todo-feed';`
 
 Please assign your individual feed URL accordingly. When you now launch your Piral instance using the piral-cli (piral debug), the newly published pilet will be loaded into the application shell.
 
