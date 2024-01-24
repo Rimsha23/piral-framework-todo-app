@@ -51,9 +51,9 @@ To scaffold a new application shell based on Piral with the name my-app execute 
 
 To execute the created Piral instance, navigate to the directory my-app and run the following piral-cli command:
  The output of the debug process shows the local address, which is usually http://localhost:1234.
-Create Package for the Application Shell <br>
+### Create Package for the Application Shell <br>
  we need to create an npm package, which will be referenced within pilets. To create the package run the command:<br>
-`npx piral build`
+`npx piral build`<br>
 By default, this command will create two folders within the dist folder: emulator and release.
 
  If you only want, e.g., the emulator package you can use the --type  flag:
